@@ -1,3 +1,32 @@
 *{
   font-size: 25px;
 }
+
+body{
+  padding: 25px;
+  margin: 25px;
+}
+
+#heading {
+  background-color: white;
+  color: black;
+}
+
+tr:nth-child(1):hover{
+  background-color: green;
+  color: white;
+}
+
+tr:nth-child(2):hover{
+  background-color: green;
+  color: white;
+}
+
+#clearPictureButton {
+  padding: 15px;
+  margin: 10px;
+  font-style: italic;
+}
+
+
+

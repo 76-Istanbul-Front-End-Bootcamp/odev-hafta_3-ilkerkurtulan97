@@ -1,0 +1,42 @@
+*{
+  font-size: 25px;
+}
+
+body{
+  padding: 25px;
+  margin: 25px;
+}
+
+#heading {
+  background-color: white;
+  color: black;
+}
+
+tr:nth-child(1):hover{
+  background-color: green;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+tr:nth-child(2):hover{
+  background-color: green;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+
+#clearPictureButton {
+  padding: 15px;
+  margin: 10px;
+  font-style: italic;
+  transition-duration: 0.4s;
+}
+
+#clearPictureButton:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+td{
+  padding: 30px;
+}
